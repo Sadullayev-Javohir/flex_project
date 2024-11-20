@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    gap: 10px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    gap: 10px;
+}
+
+.left-top {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 10px;
+}
+.left-bottom {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.left-bottom-left,
+.left-bottom-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.left-bottom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.center {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+/* .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} */
+.right-top {
+    width: 100%;
+    height: 40%;
+    gap: 10px;
+}
+.right-bottom {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.right-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.right-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.div-1, .div-3 {
+    width: 50%;
+    height: 100%;
+}
+.div-2 {
+    width: 97%;
+    height: 100%;
+}
+.div-4, .div-5 {  
+    width: 100%;
+}
+.div-4 {
+    height: 60%;
+}
+.div-5 {
+    height: 40%;
+}
+.div-6 {
+    height: 76%;
+    width: 100%;
+}
+.div-7 {
+    height: 24%;
+    width: 201.5%;
+}
+.div-8 {
+    height: 100%;
+    width: 100%;
+}
+.div-9 {
+    width: 100%;
+    height: 64.3%;
+}
+.div-10 {
+    width: 100%;
+    height: 49.5%;
+    border-left: none;
+}
+.div-11 {
+    width: 100%;
+}
+
+.box {
+    border: 10px solid rgb(255, 255, 255);
+    border-style: double;  
+}
+.box.div-1, .box.div-2, .box.div-3, .box.div-4, .box.div-5, .box.div-6,
+.box.div-7, .box.div-8, .box.div-9, .box.div-10 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+/* image */
+.div-1 {
+    background: url(./image/nature2.jpg);
+}
+.div-2 {
+    background: url(./image/nature2.jpg);
+}
+.div-3 {
+    background: url(./image/img3.jpg);
+}
+.div-4 {
+    background: url(./image/img4.webp);
+}
+.div-5 {
+    background: url(./image/img5.jpg);
+}
+.div-6 {
+    background: url(./image/img6.jpg);
+}
+.div-7 {
+    background: url(./image/img7.jpg);
+}
+.div-8 {
+    background: url(./image/img8.jpg);
+}
+.div-9 {
+    background: url(./image/img9.webp);
+}
+.div-11 {
+    background: url(./image/img4.webp);
+}
